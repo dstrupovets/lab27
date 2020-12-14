@@ -1,0 +1,45 @@
+body{
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    background-color: black;
+    padding: 20px;
+}
+.logo img{
+    width: 200px;
+}
+.header_text{
+    padding-left: 300px;
+    color: white;
+    font-size: 40px;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: url(https://img3.akspic.ru/image/122452-devuska-igra-kompyuternaya_igra-otdyx-prohlada-1920x1200.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section img{
+    width: 150px;
+    padding: 25px;
+    -webkit-animation: rotate 6s linear infinite;
+  animation: rotate 6s linear infinite;
+}
+@-webkit-keyframes rotate {
+    100% {-webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+      transform: rotate(360deg);}
+  }
+  @keyframes rotate {
+    100% {-webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+      transform: rotate(360deg);}
+  }
